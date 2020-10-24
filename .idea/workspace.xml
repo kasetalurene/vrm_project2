@@ -19,36 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86c1e1d0-4ea3-45c9-8770-300ca23ce35d" name="Default Changelist" comment="Katsetused kas template laiendamine töötab">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vrm_project2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/sensio_framework_extra.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/LuckyController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lucky/number.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+    <list default="true" id="86c1e1d0-4ea3-45c9-8770-300ca23ce35d" name="Default Changelist" comment="Vormi lisamine ja kujundus">
+      <change afterPath="$PROJECT_DIR$/public/css/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bookings/menu.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BookingIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BookingIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bookings/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bookings/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,6 +100,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -119,8 +112,58 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603544419925</updated>
-      <workItem from="1603544421118" duration="2705000" />
+      <workItem from="1603544421118" duration="10081000" />
+      <workItem from="1603558235028" duration="7240000" />
     </task>
+    <task id="LOCAL−00001" summary="Katsetused kas template laiendamine töötab">
+      <created>1603547214161</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1603547214161</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Põhistiil loodud">
+      <created>1603548703198</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1603548703198</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Loodud 2 route`i ja nende templated">
+      <created>1603550428637</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1603550428637</updated>
+    </task>
+    <task id="LOCAL−00004" summary="Vormi lisamine ja kujundus">
+      <created>1603553088820</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1603553088820</updated>
+    </task>
+    <task id="LOCAL−00005" summary="Loodud andmebaas ja tabel">
+      <created>1603561167408</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1603561167408</updated>
+    </task>
+    <task id="LOCAL−00006" summary="Loodud andmebaas ja tabel (uunedus)">
+      <created>1603561292902</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1603561292902</updated>
+    </task>
+    <task id="LOCAL−00007" summary="Vormist andmete salvestamine admebaasi">
+      <created>1603563687151</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1603563687151</updated>
+    </task>
+    <task id="LOCAL−00008" summary="Andmebaasi info väljastamine tabelina">
+      <created>1603565449673</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1603565449673</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,10 +179,18 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Katsetused kas template laiendamine töötab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Katsetused kas template laiendamine töötab" />
+    <MESSAGE value="Põhistiil loodud" />
+    <MESSAGE value="Loodud 2 route`i ja nende templated" />
+    <MESSAGE value="Vormi lisamine ja kujundus" />
+    <MESSAGE value="Loodud andmebaas ja tabel" />
+    <MESSAGE value="Loodud andmebaas ja tabel (uunedus)" />
+    <MESSAGE value="Vormist andmete salvestamine admebaasi" />
+    <MESSAGE value="Andmebaasi info väljastamine tabelina" />
+    <option name="LAST_COMMIT_MESSAGE" value="Andmebaasi info väljastamine tabelina" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1809" y="311" key="#Composer" timestamp="1603544442028">
@@ -154,14 +205,30 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1575" y="77" key="#SSH_Configurations/0.0.2560.1400@0.0.2560.1400" timestamp="1603544521070" />
-    <state x="1724" y="154" key="NewPhpClassDialog" timestamp="1603544829824">
+    <state x="1693" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603558997585">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1724" y="154" key="NewPhpClassDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1603544829824" />
+    <state x="1693" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1603558997585" />
+    <state x="1729" y="186" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603549428420">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1729" y="186" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1603549428420" />
+    <state x="1724" y="154" key="NewPhpClassDialog" timestamp="1603557814249">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1724" y="154" key="NewPhpClassDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1603557814249" />
+    <state x="1833" y="408" key="NewPhpFileDialog" timestamp="1603558323422">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1833" y="408" key="NewPhpFileDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1603558323422" />
     <state x="1500" y="76" key="SettingsEditor" timestamp="1603545359624">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1500" y="76" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1603545359624" />
+    <state x="1591" y="151" key="Vcs.Push.Dialog.v2" timestamp="1603565458745">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1591" y="151" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1603565458745" />
     <state x="1840" y="162" key="ftp.server.browser" timestamp="1603544557301">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
